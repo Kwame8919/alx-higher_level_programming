@@ -48,6 +48,8 @@ while running:
 
 
 def get_n_queens(chess_board, column, num):
+    """Method for queens problem
+    """
     if column >= num:
         return True
     for i in range(0, num):
